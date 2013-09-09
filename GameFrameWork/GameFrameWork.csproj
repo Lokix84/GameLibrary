@@ -39,11 +39,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterProperties\Ability.cs" />
+    <Compile Include="CharacterProperties\Affinity.cs" />
+    <Compile Include="CharacterProperties\Skill.cs" />
+    <Compile Include="CharacterProperties\Spell.cs" />
+    <Compile Include="CharacterProperties\Stat.cs" />
+    <Compile Include="CharacterTypes\Platformer.cs" />
+    <Compile Include="CharacterTypes\RPG.cs" />
     <Compile Include="Types\AI.cs" />
     <Compile Include="Types\Attribute.cs" />
-    <Compile Include="Types\Elements.cs" />
+    <Compile Include="Types\Element.cs" />
+    <Compile Include="Types\Modifier.cs" />
     <Compile Include="Types\Movement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\Resistance.cs" />
     <Compile Include="Types\Status.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
