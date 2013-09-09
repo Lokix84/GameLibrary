@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace GameFrameWork.Types
 {
-    public enum AI
+    public enum Elements
     {
-        Stationary,
-        Passive,
-        Aggressive,
-        Normal,
-        User
+        Physical,
+        Energy,
+        Fire,
+        Water,
+        Earth,
+        Wind,
+        Holy,
+        Dark,
+        Mystic
     }
 }

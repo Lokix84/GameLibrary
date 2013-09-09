@@ -8,5 +8,16 @@ namespace GameFrameWork.Types
 {
     public enum Attribute
     {
+        Physical,
+        Magical,
+        Special,
+        Defense,
+        MagicDefense,
+        SpecialDefense,
+        Evasion,
+        Luck,
+        Health,
+        Magic,
+        Skill
     }
 }

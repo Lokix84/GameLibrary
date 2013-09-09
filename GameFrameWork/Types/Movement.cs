@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace GameFrameWork
 {
+    //Movement types
     public enum Movement
     {
+        Horizontal,
+        Vertical,
+        Cardinal,
+        Diagonal,
+        All
     }
 }
